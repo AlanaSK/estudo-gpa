@@ -148,7 +148,7 @@
     font-size: 18px;
 }
 
-#nome-empresa, #email, #telefone, #endereco {
+.form-ajudar #nome-ajudar, #email-ajudar, #telefone-ajudar, #endereco-ajudar {
     margin: 5px auto 40px;
     width: 460px;
     border: 3px solid #fff;

@@ -125,7 +125,7 @@
         margin: 0 10px;
     }
 
-    #nome-empresa, #email, #telefone {
+    .form-parceiro #nome-empresa, #email-parceiro, #telefone-parceiro {
         margin: 5px 10px 20px;
         width: 364px;
     }
@@ -146,7 +146,7 @@
     }
 
     .subtitle-ajudar:after {
-        margin: 2px 0;
+        margin: 5px 0;
     }
 
     .voluntariado .explicacao-voluntariado {
@@ -192,13 +192,9 @@
         margin-left: 10px;
     }
 
-    #nome-empresa, #email, #telefone, #endereco {
+    .form-ajudar #nome-ajudar, #email-ajudar, #telefone-ajudar, #endereco-ajudar {
         margin: 5px 10px 40px 0;
         width: 364px;
-        border: 3px solid #fff;
-        background: none;
-        outline: none;
-        padding: 5px 0;
     }
 
     .button-form {
@@ -265,4 +261,233 @@
         font-size: 14px;
     }
 
+    /*Apadrinhamento*/
+    .texto-apadrinhe p {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    .foto-apadrinhe {
+        height: 656px;
+        width: 268px;
+        background: url(../img/apadrinhamento.jpg) no-repeat center;
+        margin-right: 10px;
+    }
+
+    /*animais apadrinhar*/
+    .apadrinhar-animal img {
+        width: 172px;
+    }
+
+    .apadrinhar-animal p {
+        font-size: 14px;
+    }
+
+    /*doações*/
+    .assinatura p {
+        font-size: 14px;
+        margin: 0 10px 15px;
+        line-height: 20px;
+    }
+
+    .doacoes .coluna-02 p {
+        margin-bottom: 10px;
+    }
+
+    /*entrega doações*/
+    .entrega-doacoes p, .retirada-doacoes p {
+        font-size: 14px;
+        margin: 0 10px 15px; 
+        line-height: 20px;
+    }
+
+    /*observação*/
+    .obs {
+        width: 748px;
+        margin: 40px auto;
+    }
+
+    .observacao p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    /*contato*/
+    .form-contato {
+        margin: 40px 0;
+    }
+
+    .form-contato #nome, #email, #telefone, #mensagem {
+        width: 316px;
+        border: 3px solid #48C8C8;
+        margin-left: 10px;
+    }
+
+    .form-contato label {
+        margin-left: 10px;
+    }
+
+    .button-form {
+        margin: 10px ;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /*dados contato*/
+    .dados-contato {
+        background: #48C8C8;
+        margin: 30px 65px 30px ;
+        padding: 60px 50px;
+        height: 485px;
+    }
+
+    .dados-contato ul {
+        font-size: 14px;
+    }
+
+    /*mapa*/
+    .mapa {
+        margin-bottom: 60px;
+    }
+
+    /*Página cachorros*/
+    .adocao-cachorros img {
+        width: 172px;
+    }
+
+    .adocao-cachorros p {
+        width: 172px;
+    }
+
+    /*Página Gatos*/
+    .adocao-gatos img {
+        width: 172px;
+    }
+    
+    .adocao-gatos p {
+        width: 172px;
+    }
+
+    /*apadrinhar*/
+    .texto-apadrinhar p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .button-form {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+
+    /*header*/
+    .header {
+        position: static;
+    }
+
+    .header img {
+        margin-left: auto;
+        transform:translateX(-50%) ;
+    }
+
+    /*footer*/
+    .footer {
+        background: #48C8C8;
+        height: 450px;
+    }
+
+    .historia-home, .redes-home, .contato-home {
+        margin-left: -50px;
+    }
+    /*introdução interna home*/
+    .introducao {
+        height: 220px;
+    }
+
+    /*introdução interna todas paginas*/
+    .introducao h1 {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+    
+    .quote {
+        margin: 10px auto 30px auto;
+        font-size: 13px;
+    }    
+    
+    /*adoção home*/
+    .adocao-home li img {
+        width: 300px;
+    }
+
+    .adocao-home li h3 {
+        line-height: normal;
+    }
+
+    .adocao-home p {
+        padding-bottom: 20px;
+    }
+
+    .call {
+        padding-top: 0;
+        margin: 0;
+    }
+    
+    .call p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /*antes e depois home*/
+    .antes-depois-home img {
+        width: 300px;
+    }
+
+    .antes-depois-home .call {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .antes-depois-home .call p {
+        margin-bottom: 30px;
+    }
+
+    /*como ajudar home*/
+    .como-ajudar-home h3 {
+        margin-top: 30px;
+    }
+
+    .como-ajudar-home .call p {
+        margin: 30px auto;
+    }
+
+    /*nosso parceiros home*/
+    .parceiros-home img {
+        width: 400px;
+        margin: 0 -50px 10px;
+    }
+
+    .parceiros-home .call {
+        margin-top: 30px;
+    }
+
+    .parceiros-home .call p {
+        margin-bottom: 30px;
+    }
+
+    /*newsletter*/
+    .newsletter .form-newsletter label {
+        margin: 40px -50px 10px ;
+    }
+
+    .newsletter .form-newsletter .put-email {
+       width: 300px;
+        margin: 0 -50px 10px;
+    }
+
+    .newsletter .newsletter-btn {
+       margin-left: 15px;
+       transform: translateX(50%);
+    }
 }

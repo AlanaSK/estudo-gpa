@@ -15,20 +15,6 @@
     margin-top: 40px;
 }
 
-.quote {
-    color: #fff;
-    font-style: italic;
-    margin: 10px auto 60px auto;
-}
-
-.quote p:after {
-    content: "";
-    background: #fff;
-    height: 3px;
-    width: 60px;
-    display: block;
-    margin: 15px auto;
-}
 
 /*doações*/
 .doacoes {
@@ -83,6 +69,8 @@
 .assinatura p {
     font-size: 18px;
     margin: 10px auto 15px;
+    line-height: 24px;
+    letter-spacing: .02em;
 }
 
 .asssinatura-mensal {
@@ -114,6 +102,8 @@
 .entrega-doacoes p, .retirada-doacoes p {
     font-size: 18px;
     margin-bottom: 20px;
+    line-height: 24px;
+    letter-spacing: .02em;
 }
 
 .retirada-doacoes h2 {
@@ -132,6 +122,9 @@
     display: inline-block;
     margin-left: 50%;
     transform: translateX(-50%);
+    line-height: 24px;
+    font-size: 18px;
+    letter-spacing: .02em;
 }
 
 .observacao p:nth-of-type(1), p:nth-of-type(2) {

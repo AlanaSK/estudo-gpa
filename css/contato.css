@@ -15,29 +15,9 @@
     margin-top: 40px;
 }
 
-.quote {
-    color: #fff;
-    font-style: italic;
-    margin: 10px auto 60px auto;
-}
-
-.quote p:after {
-    content: "";
-    background: #fff;
-    height: 3px;
-    width: 60px;
-    display: block;
-    margin: 15px auto;
-}
-
 /*Form seja um parceiro*/
 .form-contato {
     margin: 40px auto;
-}
-
-.form-contato h3 {
-    font-size: 18px;
-    margin: 0;
 }
 
 .form-contato form {
@@ -45,7 +25,7 @@
     font-size: 18px;
 }
 
-#nome, #email, #telefone, #mensagem {
+.form-contato #nome, #email, #telefone, #mensagem {
     margin: 5px auto 20px;
     width: 400px;
     border: 3px solid #48C8C8;
@@ -164,5 +144,5 @@
 
 /*mapa*/
 .mapa {
-    margin-bottom: 60px;
+    margin-bottom:  60px;
 }

@@ -15,21 +15,6 @@
     margin-top: 40px;
 }
 
-.quote {
-    color: #fff;
-    font-style: italic;
-    margin: 10px auto 60px auto;
-}
-
-.quote p:after {
-    content: "";
-    background: #fff;
-    height: 3px;
-    width: 60px;
-    display: block;
-    margin: 15px auto;
-}
-
 /*texto apadrinhamento*/
 .texto-apadrinhe {
     margin: 40px auto;
@@ -46,6 +31,12 @@
 
 .texto-apadrinhe a:visited {
     color: #48C8C8;
+}
+
+.foto-apadrinhe {
+    height: 656px;
+    width: 340px;
+    background: url(../img/apadrinhamento.jpg) no-repeat center;
 }
 
 /*apadrinhar cachorros*/
@@ -80,6 +71,7 @@
     letter-spacing: .02em;
     text-align: center;
     margin-bottom: 20px;
+    line-height: 24px;
 }
 
 .texto-apadrinhar {
@@ -93,7 +85,7 @@
     font-weight: bold;
     margin-bottom: 0;
 }
-/*Form seja um parceiro*/
+/*Form seja um padrinho*/
 .form-apadrinhar {
     margin: 40px 50%;
     transform: translateX(-30%);
@@ -109,7 +101,7 @@
     font-size: 18px;
 }
 
-#nome, #email, #cpf, #endereco, #nome_animal, #valor, #dia_venc {
+.form-apadrinhar #nome-apadrinhar, #email-apadrinhar, #cpf-apadrinhar, #endereco-apadrinhar, #nome_animal, #valor, #dia_venc {
     margin: 5px auto 20px;
     width: 100%;
     border: 3px solid #48C8C8;
@@ -118,7 +110,7 @@
 }
 
 .button-form {
-    margin: 10px 0;
+    margin: 10px auto;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
