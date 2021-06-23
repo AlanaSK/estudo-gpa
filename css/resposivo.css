@@ -1,0 +1,268 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    
+    /*Geral*/
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .subtitle:after {
+        margin: 0 auto;
+    }
+
+    .subtitle-branco {
+        font-size: 18px;
+    }
+
+    .subtitle-branco:after {
+        margin: 0 auto;
+    }
+
+    /*Header Menu*/
+    .header ul li {
+        margin-left: 5px;
+    }
+    
+    .header_menu a {
+        font-size: 13px;
+    }
+
+    /*footer*/
+    .historia-home p {
+        max-width: 300px;
+    }
+
+    .contato-home {
+        margin-left: -50px;
+    }
+
+    .redes-home {
+        margin-left: 40px;
+    }
+    
+    /*Home*/
+    /*adoção home*/
+    .adocao-home li img {
+        width: 364px;
+    }
+
+    /*nosso trabalho home*/
+    .antes-depois-home img {
+        width: 364px;
+    }
+
+    /*Sobre*/
+    .sobre-descricao h2 {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .sobre-descricao p {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .sobre-descricao ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .sobre-descricao .objetivos {
+        margin-left: 50px;
+    }
+
+    .nosso-trabalho {
+        margin: 40px 0 0 50px;
+        width: 300px;
+    }
+
+    /*Local*/
+    .local p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 700px;
+    }
+    
+    .local img {
+        width: 364px;
+    }
+
+    /*Antes e depois*/
+    .antes-depois p {
+        max-width: 700px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /*parceiros*/
+    .nossos-parceiros img {
+        width: 364px;
+        margin-bottom: 10px;
+    }
+
+    .info-parceiro {
+        margin-bottom: 70px;
+        padding-top: 50px; 
+    }
+
+    .subtitle-parceiro {
+        font-size: 18px;
+    }
+    
+    .subtitle-parceiro:after {
+        margin: 2px 0 10px;
+    }
+
+    .nossos-parceiros ul {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /*form parceiro*/
+    .form-parceiro label {
+        margin: 0 10px;
+    }
+
+    #nome-empresa, #email, #telefone {
+        margin: 5px 10px 20px;
+        width: 364px;
+    }
+
+    .button-form {
+        margin: 10px 10px;
+    }
+
+    .form-parceiro img {
+        width: 364px;
+        position: relative;
+        bottom: -53px;
+    }
+
+    /*adoção*/
+    .subtitle-ajudar {
+        font-size: 18px;
+    }
+
+    .subtitle-ajudar:after {
+        margin: 2px 0;
+    }
+
+    .voluntariado .explicacao-voluntariado {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .imagem {
+        width: 364px;
+        height: 400px;
+        margin-bottom: 25px;
+    }
+
+    .voluntariado .texto-linha-02 {
+        margin: 10px 0 20px;
+    }
+
+    .voluntariado .texto-linha-03 {
+        margin: 10px 0 20px;
+    }
+
+    /*break ajudar*/
+    .break-ajudar {
+        height: 200px;
+    }
+
+    .break-ajudar h2 {
+        font-size: 30px;
+    }
+
+    /*sobre nf paulista*/
+    .nf-paulista p {
+        font-size: 14px;
+        margin: 0 25px 20px;
+    }
+
+    /*form ajudar*/ 
+    .form-ajudar p {
+        margin: 0 20px 20px;
+    }
+
+    .form-ajudar .dados label {
+        margin-left: 10px;
+    }
+
+    #nome-empresa, #email, #telefone, #endereco {
+        margin: 5px 10px 40px 0;
+        width: 364px;
+        border: 3px solid #fff;
+        background: none;
+        outline: none;
+        padding: 5px 0;
+    }
+
+    .button-form {
+        margin-top: 30px;
+    }
+
+    /*Adoção*/
+    .subtitle-adocao {
+        font-size: 18px;
+        margin: 0 20px;
+    }
+    
+    .subtitle-adocao:after {
+       margin: 2px 0 10px;
+    }
+    
+    .texto-adocao p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 20px;
+    }
+
+    /*Alerta 01*/
+    .alerta {
+        width: 748px;
+        margin: 20px auto;
+    }
+
+    .texto-adocao ul {
+        font-size: 14px;
+        margin: 10px 20px;
+        line-height: 20px
+    }
+
+    .texto-adocao ul li {
+        margin-top: 10px;
+    }
+
+    /*break adoção*/
+
+    .break-adocao {
+        height: 200px;
+    }
+    
+    .break-adocao h2 {
+        font-size: 30px;
+    }
+
+    /*download formulário*/    
+    .para-adotar {
+        padding-bottom: 20px;
+    }
+    
+    .para-adotar h2 {
+        font-size: 18px;
+        margin: 20px auto;
+    }
+    
+    .para-adotar h2:after {
+        margin: 5px auto 2px
+    }
+
+    .para-adotar p {
+        font-size: 14px;
+    }
+
+}

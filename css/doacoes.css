@@ -1,0 +1,140 @@
+/*Introdução Interna doações*/
+.introducao-interna-doacoes {
+    background: url(../img/bg-doacoes.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 185px;
+    text-align: center;
+}
+
+.introducao-interna-doacoes h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+.quote {
+    color: #fff;
+    font-style: italic;
+    margin: 10px auto 60px auto;
+}
+
+.quote p:after {
+    content: "";
+    background: #fff;
+    height: 3px;
+    width: 60px;
+    display: block;
+    margin: 15px auto;
+}
+
+/*doações*/
+.doacoes {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.doacoes p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.doacoes .coluna-01 .call {
+    margin-top: -10px;
+}
+
+.doacoes ul {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.doacoes .coluna-02 .call {
+    margin: 0 0 15px;
+    padding: 15px 0;
+}
+
+.btn-doacoes {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #48C8C8;
+    padding: 10px 30px;
+    border: 3px solid #48C8C8;
+}
+
+
+.btn-doacoes:hover {
+    color: #fff;
+    background: #48C8C8;
+}
+
+.doacoes .coluna-02 p {
+    margin-bottom: 5px;
+}
+
+/*Assinatura Mensal*/
+.assinatura {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.assinatura p {
+    font-size: 18px;
+    margin: 10px auto 15px;
+}
+
+.asssinatura-mensal {
+    margin-top: 20px;
+}
+
+.btn-assinatura {
+    color: #48C8C8;
+    border: 3px solid #48C8C8;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ame {
+    padding: 10px 47px;
+}
+
+.picpay {
+    padding: 10px 37px;
+}
+
+.btn-assinatura:hover {
+    color: #fff;
+    background: #48C8C8;
+}
+
+/*entrega doações*/
+.entrega-doacoes p, .retirada-doacoes p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.retirada-doacoes h2 {
+    margin-top: 30px;
+}
+
+/*observações*/
+.obs {
+    background: #48C8C8;
+    color: #fff;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.observacao p {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.observacao p:nth-of-type(1), p:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,60 @@
+/*Introdução Interna Adoção*/
+.introducao-interna-gato {
+    background: url(../img/bg-gatos.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 185px;
+    text-align: center;
+}
+
+.introducao-interna-gato h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+/*adoção cachorros*/
+.adocao-gatos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.adotar-gatos {
+    background: #48C8C8;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.adocao-gatos p {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 200px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.adocao-gatos p:nth-of-type(2) {
+    margin: 10px auto 20px;
+    font-weight: normal;
+}
+
+.btn-adocao {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-adocao:hover {
+    color: #48C8C8;
+    background: #fff;
+}
+
+.adocao-gatos img {
+    width: 220px;
+    margin-bottom: 10px;
+}
+
