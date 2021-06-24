@@ -380,7 +380,6 @@
 }
 
 @media only screen and (max-width: 787px) {
-
     /*header*/
     .header {
         position: static;
@@ -463,6 +462,10 @@
     }
 
     /*nosso parceiros home*/
+    .parceiros-home h2 {
+        margin-top: 30px;
+    }
+
     .parceiros-home img {
         width: 400px;
         margin: 0 -50px 10px;
@@ -490,4 +493,398 @@
        margin-left: 15px;
        transform: translateX(50%);
     }
+
+    /*Página sobre*/
+    .introducao-interna-sobre h1 {
+        font-size: 36px;
+    }
+
+    /*Hostíria, missão objetivo*/
+    .sobre-descricao{
+        margin: 30px auto;
+    }
+    .sobre-descricao h2 {
+        font-size: 18px;
+    }
+    
+    .sobre-descricao h2:after {
+        margin: 2px 0 8px;
+    }
+    
+    .sobre-descricao p {
+        font-size: 14px;
+        letter-spacing: .02em;
+    }
+    
+    .sobre-descricao ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .sobre-descricao .objetivos {
+        margin: 30px auto;
+    }
+    
+    .missao {
+        margin: auto;
+    }
+    
+    .nosso-trabalho {
+        margin: 30px auto;
+    }
+
+    /*Local*/
+    .local h2 {
+        margin-top: 30px;
+    }
+
+    .local h2::after {
+        margin-bottom: -10px;
+    }
+
+    .local p {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: .03em;
+        margin: 0 auto 20px;
+    }
+
+    .local img {
+        width: 364px;
+        margin: 0 -25px 30px;
+    }    
+
+    /*Antes e depois*/
+    .antes-depois h2 {
+        margin-top: 30px;
+    }
+
+    .antes-depois p {
+        margin: -10px auto 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .antes-depois img {
+        margin: 20px -25px;
+        width: 364px;
+    }
+
+    /*parceiros*/
+    .nossos-parceiros {
+        background-color: #48C8C8;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .nossos-parceiros img {
+        width: 364px;
+        margin:0 -25px 10px;
+    }
+
+    .info-parceiro {
+        margin-bottom: 30px;
+        padding-top: 5px; 
+    }
+
+    .subtitle-parceiro {
+        font-size: 18px;
+        margin: 0 -25px;
+    }
+
+    .subtitle-parceiro:after {
+        margin: 2px -0 8px;
+    }
+
+    .nossos-parceiros ul {
+       margin: 0 -25px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /*Form seja um parceiro*/
+    .form-parceiro {
+        margin: 30px auto;
+    }
+
+    .form-parceiro form {
+        margin: 20px 0;
+    }
+
+    .form-parceiro #nome-empresa, #email-parceiro, #telefone-parceiro {
+        margin: 5px auto 20px;
+        width: 300px;
+    }
+
+    .button-form {
+        margin: 10px 0;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #48C8C8;
+        background: none;
+        border: 3px solid #48C8C8;
+        padding: 12px 0;
+    }
+
+    .button-form:hover {
+        background: #48C8C8;
+        color: #fff;
+    }
+
+    .form-parceiro img {
+        left: 0;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    /*pagina adoção*/
+    .introducao-interna-adocao h1 {
+        font-size: 36px;
+    }
+
+    /*textos adoção*/
+    .texto-adocao  {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .subtitle-adocao {
+        font-size: 18px;
+    }
+
+    .subtitle-adocao:after {
+        margin: 2px 0 8px;
+    }
+
+    .texto-adocao p {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: .03em;
+    }
+
+    .texto-adocao ul {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .texto-adocao ul li {
+        margin-top: 0;
+    }
+
+    .alerta {
+        padding: 20px 20px 0;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .alerta p {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+    }
+
+    /*break*/
+    .break-adocao {
+        height: 200px;
+        position: relative;
+        margin: 30px auto;
+    }
+
+    .break-adocao h2 {
+        font-size: 36px;
+    }
+
+    /*Dowload Formulario de adoção*/
+    .para-adotar h2 {
+        font-size: 18px;
+        margin: 30px auto 15px;
+    }
+
+    .para-adotar h2:after {
+        margin: 5px auto 8px
+    }
+
+    .para-adotar p {
+        font-size: 14px;
+    }
+
+    .para-adotar img {
+        margin-top: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    /*Apadrinhamento*/
+    .introducao-interna-apadrinhe {
+        background: url(../img/bg-apadrinhamento.jpg) no-repeat center;
+    }
+
+    .introducao-interna-apadrinhe h1 {
+        font-size: 36px;
+    }
+    
+    .foto-apadrinhe {
+        height: 300px;
+        margin-left: -25px;
+        background: url(../img/apadrinhamento.jpg) no-repeat center;
+    }
+
+    /*apadrinhar animais*/
+    .animais {
+        width: 100%;
+    }
+
+    .animais img {
+        width: 150px;
+    }
+
+    .animais p {
+        font-size: 14px;
+        width: 150px;
+        margin: 10px auto 15px;
+    }
+
+    .apadrinhar-animal {
+        width: 150px;
+        margin: 0 0 30px 20px;
+        display: inline-block;
+    }
+
+    /*texto apadrinhar*/
+    .texto-apadrinhar p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .texto-apadrinhar {
+        margin: 40px 50%;
+        width: 350px;
+        padding: 20px 20px;
+    }
+
+    /*Form seja um padrinho*/
+    .form-apadrinhar {
+        margin: 10px 50%;
+        transform: translateX(-50%);
+    }
+
+    /*Página doações*/
+    .introducao-interna-doacoes h1 {
+        font-size: 36px;
+    }
+    
+    .doações, .assinatura, .entrega-doacoes, .retirada-doacoes, .observacao{
+        overflow-x: hidden;
+    }
+
+    /*doações*/    
+    .doacoes .coluna-01 .call {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .doacoes .coluna-02 .call {
+        margin: 0 0 30px;
+    }
+    
+    /*Assinatura Mensal*/
+    .assinatura {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .assinatura p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+    }
+    
+    .asssinatura-mensal {
+        margin: 20px 30px 10px 0;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .asssinatura-mensal:nth-last-of-type(1) {
+        width: 120px;
+    }
+
+    .asssinatura-mensal p {
+        text-align: center;
+    }
+    
+    /*entrega doações*/
+    .entrega-doacoes p, .retirada-doacoes p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /*observações*/
+    .obs {
+        width: 100%;
+    }
+
+    .observacao p {
+        width: 100%;
+        line-height: 20px;
+        font-size: 14px;
+    }       
+    
+    /*pagina cachorro*/
+    .introducao-interna-cachorro h1 {
+        font-size: 36px;
+    }
+
+    /*adoção cachorros*/
+    .adotar-cachorro:nth-child(odd) {
+        width: 150px;
+        display: inline-block;
+        margin-left: -30px;
+    }
+    
+    .adotar-cachorro:nth-child(even) {
+        width: 150px;
+        display: inline-block;
+        margin-left: 25px;
+    }
+    
+
+    .adocao-cachorros p {
+        display: none;
+    }
+
+    .adocao-cachorros img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    /*pagina cachorro*/
+    .introducao-interna-gato h1 {
+        font-size: 36px;
+    }
+
+    /*adoção gatos*/
+    .adotar-gatos:nth-child(odd) {
+        width: 150px;
+        display: inline-block;
+        margin-left: -30px;
+    }
+    
+    .adotar-gatos:nth-child(even) {
+        width: 150px;
+        display: inline-block;
+        margin-left: 25px;
+    }
+    
+
+    .adocao-gatos p {
+        display: none;
+    }
+
+    .adocao-gatos img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
 }
